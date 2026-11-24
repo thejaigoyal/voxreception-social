@@ -1,0 +1,79 @@
+{
+  "brand": {"name": "VoxReception", "cta": "Call our AI receptionist now: +1 (859) 724-5646", "site": "voxreception.com", "postTimeIST": "18:30"},
+  "posts": [
+    {"id": "d01", "date": "2026-11-25", "pillar": "demo", "topic": "Meet the receptionist that always picks up",
+     "slides": [
+       {"kicker": "VOX://INTRO", "headline": "Your phone rings.\nNobody answers.", "body": "Busy with a client. Closed for the night. On another call. It happens every day."},
+       {"kicker": "MEET VOX", "headline": "An AI receptionist that picks up every call.", "body": "Day, night, weekends. No hold music. No voicemail."},
+       {"kicker": "WHAT IT DOES", "headline": "Books. Reschedules. Answers. Transfers.", "body": "It handles the routine calls and hands the important ones to you."},
+       {"kicker": "TRY IT", "headline": "Don't take our word for it. Call it.", "body": "+1 (859) 724-5646 rings our live AI receptionist right now."}
+     ],
+     "caption": "Your phone rings while you're with a customer. Who picks up?\n\nVoxReception is an AI receptionist that answers every call, books and reschedules appointments, answers common questions, and transfers the calls that need you.\n\nThe best way to judge it is to talk to it. Call +1 (859) 724-5646 and try to trip it up.",
+     "hashtags": ["#AIreceptionist", "#smallbusiness", "#missedcalls", "#customerservice"]},
+    {"id": "d02", "date": "2026-11-26", "pillar": "pain_point", "topic": "A missed call is a customer calling someone else",
+     "slides": [
+       {"kicker": "VOX://REALITY", "headline": "A missed call rarely calls back.", "body": "Most people just dial the next business on the list."},
+       {"kicker": "THE PROBLEM", "headline": "Voicemail feels like a closed door.", "body": "Callers want an answer now, not a callback tomorrow."},
+       {"kicker": "THE FIX", "headline": "Answer every call. Even the 9pm ones.", "body": "VoxReception picks up, books the appointment, and sends you the details."},
+       {"kicker": "TRY IT", "headline": "Hear it for yourself.", "body": "Call +1 (859) 724-5646. It's our live AI receptionist."}
+     ],
+     "caption": "When you miss a call, the caller doesn't wait. They try the next business.\n\nVoxReception answers every call, day or night, books the appointment and sends you the details, so the customer stays yours.\n\nCall our AI receptionist now: +1 (859) 724-5646",
+     "hashtags": ["#smallbusiness", "#missedcalls", "#businessowner", "#AIreceptionist"]},
+    {"id": "d03", "date": "2026-11-27", "pillar": "education", "topic": "What callers want in the first 10 seconds",
+     "slides": [
+       {"kicker": "VOX://TIPS", "headline": "What callers want in the first 10 seconds.", "body": "Get these right and most calls go smoothly."},
+       {"kicker": "01", "headline": "A real answer, not a menu.", "body": "\"Press 1 for...\" makes people hang up."},
+       {"kicker": "02", "headline": "Your business name, clearly.", "body": "So they know they reached the right place."},
+       {"kicker": "03", "headline": "A fast path to what they need.", "body": "Booking, hours, prices, or a person."},
+       {"kicker": "VOX", "headline": "VoxReception does all three. Every call.", "body": "Call +1 (859) 724-5646 to hear it."}
+     ],
+     "caption": "The first 10 seconds of a call decide how it goes.\n\nCallers want: a real answer (not a phone menu), your business name said clearly, and a quick path to what they need.\n\nSave this for your front desk. Or let VoxReception handle it for you: +1 (859) 724-5646",
+     "hashtags": ["#customerservice", "#smallbusinesstips", "#frontdesk", "#AIreceptionist"]},
+    {"id": "d04", "date": "2026-11-28", "pillar": "use_case", "topic": "Dental clinics: rescheduling after hours",
+     "slides": [
+       {"kicker": "VOX://DENTAL", "headline": "It's 10pm. A patient needs to move tomorrow's appointment.", "body": "Your front desk went home hours ago."},
+       {"kicker": "WITHOUT VOX", "headline": "Voicemail. Then an empty chair.", "body": "Nobody knew the slot was free."},
+       {"kicker": "WITH VOX", "headline": "Moved in one call.", "body": "Vox finds a new time, updates the booking, and confirms with the patient."},
+       {"kicker": "TRY IT", "headline": "Try the reschedule yourself.", "body": "Call +1 (859) 724-5646 and say: \"Can I move my Tuesday appointment?\""}
+     ],
+     "caption": "Patients don't only call between 9 and 5.\n\nWhen someone needs to reschedule late at night, VoxReception picks up, finds a new slot and confirms it, so tomorrow's schedule stays full.\n\nTry it: call +1 (859) 724-5646 and ask to move a Tuesday appointment.",
+     "hashtags": ["#dentalpractice", "#dentaloffice", "#dentistry", "#AIreceptionist"]},
+    {"id": "d05", "date": "2026-11-29", "pillar": "demo", "topic": "Try to stump our AI: 3 things to say",
+     "slides": [
+       {"kicker": "VOX://CHALLENGE", "headline": "Try to stump our AI receptionist.", "body": "Here are three things to say when you call."},
+       {"kicker": "TEST 01", "headline": "Change your mind mid-sentence.", "body": "Start one request, stop, ask something else."},
+       {"kicker": "TEST 02", "headline": "Ask a tricky booking.", "body": "\"A table for six at 7:30, one toddler, two vegans, is the patio open?\""},
+       {"kicker": "TEST 03", "headline": "Ask for a price and a time together.", "body": "\"How much for brakes on a 2019 Camry, and can you do Saturday?\""},
+       {"kicker": "YOUR TURN", "headline": "+1 (859) 724-5646", "body": "Tell us in the comments how it did."}
+     ],
+     "caption": "We'd rather you test it than trust us.\n\nCall +1 (859) 724-5646 and try one of these:\n1. Change your mind halfway through a sentence.\n2. Ask for a complicated booking.\n3. Ask for a price and an appointment in one breath.\n\nThen tell us in the comments how it handled you.",
+     "hashtags": ["#AIreceptionist", "#voiceAI", "#smallbusiness", "#tryit"]},
+    {"id": "d06", "date": "2026-11-30", "pillar": "product", "topic": "It doesn't just answer. It calls.",
+     "slides": [
+       {"kicker": "VOX://OUTBOUND", "headline": "It doesn't just answer.\nIt calls.", "body": "VoxReception can also place calls for you."},
+       {"kicker": "HOW", "headline": "Upload a list. Describe the call. Press go.", "body": "Appointment reminders, confirmations, follow-ups."},
+       {"kicker": "RESULT", "headline": "Answers land back in your system.", "body": "Confirmed, rescheduled, or needs a person."},
+       {"kicker": "THE RULES", "headline": "Only people who agreed to hear from you.", "body": "Respects opt-outs and quiet hours. Always."}
+     ],
+     "caption": "Most AI receptionists only answer. VoxReception can also call.\n\nUpload a list of customers who've agreed to hear from you, describe the conversation, and Vox makes the reminder, confirmation or follow-up calls, then records how each one went. It respects opt-outs and quiet hours.\n\nCall our AI receptionist now: +1 (859) 724-5646",
+     "hashtags": ["#appointmentreminders", "#businessautomation", "#smallbusiness", "#AIreceptionist"]},
+    {"id": "d07", "date": "2026-12-01", "pillar": "use_case", "topic": "Home services: on a job, can't pick up",
+     "slides": [
+       {"kicker": "VOX://HOME SERVICES", "headline": "You're under a sink. Your phone is ringing.", "body": "That could be your next job."},
+       {"kicker": "THE OLD WAY", "headline": "Call back later. Hope they waited.", "body": "Often they've already booked someone else."},
+       {"kicker": "WITH VOX", "headline": "Every call answered while you work.", "body": "Vox takes the details, books the visit, and texts you the summary."},
+       {"kicker": "TRY IT", "headline": "Hear it handle a service call.", "body": "Call +1 (859) 724-5646."}
+     ],
+     "caption": "Plumbers, electricians, HVAC techs: you can't answer the phone with your hands full.\n\nVoxReception answers while you work, takes the caller's details, books the visit and sends you a summary. No more calling back after the customer has moved on.\n\nHear it for yourself: +1 (859) 724-5646",
+     "hashtags": ["#homeservices", "#plumber", "#HVAC", "#electrician", "#AIreceptionist"]}
+  ],
+  "week2_topics": [
+    {"date": "2026-12-02", "pillar": "use_case", "topic": "Salons: no more double bookings from phone chaos"},
+    {"date": "2026-12-03", "pillar": "education", "topic": "Myth vs fact: AI receptionists"},
+    {"date": "2026-12-04", "pillar": "use_case", "topic": "Law offices: after-hours new-client calls"},
+    {"date": "2026-12-05", "pillar": "product", "topic": "Phone, WhatsApp, chat, email: one conversation"},
+    {"date": "2026-12-06", "pillar": "education", "topic": "Should an AI tell callers it's an AI? Our answer"},
+    {"date": "2026-12-07", "pillar": "product", "topic": "Simple pricing: what $350 a month covers"},
+    {"date": "2026-12-08", "pillar": "demo", "topic": "Weekend coverage without weekend staff"}
+  ]
+}
