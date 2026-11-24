@@ -5,7 +5,7 @@ Goal: publish exactly ONE post per day to Instagram (carousel), the Facebook Pag
 ## Accounts (Windsor.ai for Social Media connector)
 - Instagram: connector `instagram`, account `17841462519805341` (@voxrecep), action `create_carousel_post`
 - Facebook: connector `facebook_organic`, account `1466103719920801` (VoxReception Page), action `create_photo_post`
-- LinkedIn: connector `linkedin_organic`, action `create_image_post`, company page account id from `get_connectors` (skip LinkedIn if no account is connected)
+- LinkedIn: connector `linkedin_organic`, action `create_image_post`, account `107803140` (VoxReception company page)
 
 ## Steps
 1. Clone/pull this repo. Read `content-rules.md` (allowed facts, banned claims, voice), `posts.json`, `published.json`.
