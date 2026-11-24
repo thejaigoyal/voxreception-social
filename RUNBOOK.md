@@ -1,10 +1,11 @@
 # Daily posting runbook (followed by the scheduled task)
 
-Goal: publish exactly ONE post per day to Instagram (carousel) and the Facebook Page (cover image), fully automatically. No human approval.
+Goal: publish exactly ONE post per day to Instagram (carousel), the Facebook Page (cover image) and the LinkedIn company page (cover image), fully automatically. No human approval.
 
 ## Accounts (Windsor.ai for Social Media connector)
 - Instagram: connector `instagram`, account `17841462519805341` (@voxrecep), action `create_carousel_post`
 - Facebook: connector `facebook_organic`, account `1466103719920801` (VoxReception Page), action `create_photo_post`
+- LinkedIn: connector `linkedin_organic`, action `create_image_post`, company page account id from `get_connectors` (skip LinkedIn if no account is connected)
 
 ## Steps
 1. Clone/pull this repo. Read `content-rules.md` (allowed facts, banned claims, voice), `posts.json`, `published.json`.
@@ -18,7 +19,8 @@ Goal: publish exactly ONE post per day to Instagram (carousel) and the Facebook 
 5. **Publish** with Windsor:
    - Instagram `create_carousel_post` with `image_urls` (all slides in order) and `caption` + a blank line + hashtags.
    - Facebook `create_photo_post` with `image_url` = slide-1 and `caption` (no hashtags, add a final line `voxreception.com`).
-6. **Log** the result in `published.json` (id, publishedAt UTC, instagramMediaId, facebookPostId, or `error` text) and push.
+   - LinkedIn `create_image_post` with `image_url` = slide-1 and `commentary`: the caption rewritten for business owners and operators (slightly more professional, no emojis, up to 2 hashtags, final line `voxreception.com`).
+6. **Log** the result in `published.json` (id, publishedAt UTC, instagramMediaId, facebookPostId, linkedinPostId, or `error` text) and push.
 7. If a platform fails, still publish to the other one, log the error, and do not retry more than once.
 
 ## Never
