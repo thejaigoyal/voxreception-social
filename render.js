@@ -30,6 +30,26 @@ p{margin-top:56px;font-size:40px;line-height:1.38;color:rgba(244,244,240,.72);ma
 <div class="foot"><span class="brand">VoxReception</span>${last?'<span class="cta">CALL +1 (859) 724-5646</span>':`<span class="dots">${Array.from({length:n},(_,k)=>`<i class="${k===i?'on':''}"></i>`).join('')}</span>`}</div>
 </body></html>`;
 }
+function summaryHtml(post) {
+  const s = post.slides, first = s[0], lastS = s[s.length - 1];
+  const pts = s.slice(1, -1).map(x => `<li><span>${esc(x.kicker)}</span>${esc(x.headline)}</li>`).join('');
+  return `<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Inter:wght@400;500&family=JetBrains+Mono:wght@500&display=block" rel="stylesheet">
+<style>*{margin:0;padding:0;box-sizing:border-box}
+body{width:1080px;height:1350px;background:#0A0B0F;color:#F4F4F0;font-family:Inter,sans-serif;position:relative;overflow:hidden}
+.grid{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);background-size:90px 90px}
+.glow{position:absolute;width:900px;height:900px;right:-380px;top:-380px;background:radial-gradient(circle,rgba(212,255,79,.16),transparent 62%)}
+.k{position:absolute;top:80px;left:90px;font-family:'JetBrains Mono',monospace;font-size:24px;letter-spacing:.12em;color:#D4FF4F}
+h1{position:absolute;top:170px;left:90px;right:90px;font-family:Fraunces,serif;font-weight:500;font-size:${first.headline.length>45?72:84}px;line-height:1.05;letter-spacing:-.02em}
+ul{position:absolute;left:90px;right:90px;top:${first.headline.length>45?560:500}px;list-style:none}
+li{border-top:1px solid rgba(255,255,255,.18);padding:30px 0;font-size:38px;line-height:1.3;font-weight:500}
+li span{display:block;font-family:'JetBrains Mono',monospace;font-size:20px;letter-spacing:.12em;color:rgba(244,244,240,.55);margin-bottom:10px;font-weight:500}
+.foot{position:absolute;left:90px;right:90px;bottom:90px;display:flex;justify-content:space-between;align-items:center;border-top:1px solid rgba(255,255,255,.18);padding-top:36px}
+.brand{font-family:Fraunces,serif;font-size:36px}.cta{background:#D4FF4F;color:#0A0B0F;padding:16px 26px;font-family:'JetBrains Mono',monospace;font-size:24px;letter-spacing:.08em}
+</style></head><body><div class="grid"></div><div class="glow"></div>
+<div class="k">${esc(first.kicker)}</div><h1>${esc(first.headline)}</h1><ul>${pts}</ul>
+<div class="foot"><span class="brand">VoxReception</span><span class="cta">CALL +1 (859) 724-5646</span></div></body></html>`;
+}
 (async () => {
   const browser = await chromium.launch();
   const page = await browser.newPage({ viewport: { width: 1080, height: 1350 }, deviceScaleFactor: 1 });
@@ -41,6 +61,17 @@ p{margin-top:56px;font-size:40px;line-height:1.38;color:rgba(244,244,240,.72);ma
       await page.evaluate(() => document.fonts.ready);
       await page.screenshot({ path: path.join(dir, `slide-${i+1}.jpg`), type: 'jpeg', quality: 90 });
     }
+    // LinkedIn summary card: every slide's key point on one image
+    await page.setContent(summaryHtml(post), { waitUntil: 'networkidle' });
+    await page.evaluate(() => document.fonts.ready);
+    await page.screenshot({ path: path.join(dir, 'summary.jpg'), type: 'jpeg', quality: 90 });
+    // Facebook slideshow video: each slide ~3.5s with a short crossfade
+    const n = post.slides.length, d = 3.5, f = 0.5;
+    const inputs = post.slides.map((_, i) => `-loop 1 -t ${d} -i ${path.join(dir, `slide-${i+1}.jpg`)}`).join(' ');
+    let chain = '', last = '[0:v]', off = 0;
+    for (let i = 1; i < n; i++) { off += d - f; chain += `${last}[${i}:v]xfade=transition=fade:duration=${f}:offset=${off.toFixed(2)}[v${i}];`; last = `[v${i}]`; }
+    const filter = n > 1 ? `${chain}${last}format=yuv420p[out]` : `[0:v]format=yuv420p[out]`;
+    require('child_process').execSync(`ffmpeg -y -loglevel error ${inputs} -filter_complex "${filter}" -map "[out]" -r 30 -c:v libx264 -preset medium -crf 20 -movflags +faststart ${path.join(dir, 'slideshow.mp4')}`);
     console.log('rendered', post.id, post.slides.length);
   }
   await browser.close();
