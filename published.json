@@ -6,5 +6,13 @@
     "facebookPostId": "1466103719920801_122107850643551175",
     "linkedinPostId": "urn:li:share:7530983384270151680",
     "note": "FB and LinkedIn reposted 2026-11-24 in full formats; old LinkedIn post urn:li:share:7530982080982212608 to be deleted manually"
+  },
+  {
+    "id": "d02",
+    "publishedAt": "2026-11-25T12:55:00Z",
+    "instagramMediaId": null,
+    "facebookPostId": "1466103719920801_122108803749551175",
+    "linkedinPostId": "urn:li:share:7531338418425995264",
+    "error": "Instagram: Error validating access token: session invalidated (password change or Facebook security reset). Failed twice; Windsor Instagram connection needs reconnecting. Instagram carousel for d02 not posted."
   }
 ]
