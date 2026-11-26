@@ -74,10 +74,19 @@
        {"kicker": "TRY IT", "headline": "Hear it book an appointment.", "body": "Call +1 (859) 724-5646."}
      ],
      "caption": "Salon owners know the moment: hands busy, phone ringing, a booking scribbled on whatever's nearby. That's how two clients end up in the same chair.\n\nVoxReception answers every call, checks which slots are actually open, books the appointment and confirms it with the caller. Reschedules and cancellations too, so your book stays clean while you keep working.\n\nCall our AI receptionist now: +1 (859) 724-5646",
-     "hashtags": ["#salonowner", "#hairsalon", "#salonlife", "#smallbusiness", "#AIreceptionist"]}
+     "hashtags": ["#salonowner", "#hairsalon", "#salonlife", "#smallbusiness", "#AIreceptionist"]},
+    {"id": "d09", "date": "2026-12-03", "pillar": "education", "topic": "Myth vs fact: AI receptionists",
+     "slides": [
+       {"kicker": "VOX://MYTHS", "headline": "Myth vs fact: AI receptionists.", "body": "Three things people get wrong about letting AI answer the phone."},
+       {"kicker": "MYTH 01", "headline": "\"It's just a fancy phone menu.\"", "body": "Fact: callers just talk. No buttons, no \"press 2\". It understands and replies."},
+       {"kicker": "MYTH 02", "headline": "\"It can only take messages.\"", "body": "Fact: it books, reschedules and confirms appointments, and answers FAQs."},
+       {"kicker": "MYTH 03", "headline": "\"Callers get stuck with a bot.\"", "body": "Fact: it can forward or warm-transfer the call to your team when needed."},
+       {"kicker": "TRY IT", "headline": "Make up your own mind.", "body": "Call +1 (859) 724-5646 and test it yourself."}
+     ],
+     "caption": "\"AI receptionist\" makes a lot of people picture a clunky phone menu. Here's what's actually true.\n\nMyth: it's a phone tree. Fact: callers simply talk, and it understands and replies.\n\nMyth: it only takes messages. Fact: it books, reschedules and confirms appointments and answers common questions.\n\nMyth: callers get trapped. Fact: it can forward or warm-transfer the call to a person on your team.\n\nDon't take our word for it.\n\nCall our AI receptionist now: +1 (859) 724-5646",
+     "hashtags": ["#AIreceptionist", "#smallbusiness", "#mythvsfact", "#customerservice"]}
   ],
   "week2_topics": [
-    {"date": "2026-12-03", "pillar": "education", "topic": "Myth vs fact: AI receptionists"},
     {"date": "2026-12-04", "pillar": "use_case", "topic": "Law offices: after-hours new-client calls"},
     {"date": "2026-12-05", "pillar": "product", "topic": "Phone, WhatsApp, chat, email: one conversation"},
     {"date": "2026-12-06", "pillar": "education", "topic": "Should an AI tell callers it's an AI? Our answer"},
