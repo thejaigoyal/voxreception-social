@@ -14,5 +14,13 @@
     "facebookPostId": "1466103719920801_122108803749551175",
     "linkedinPostId": "urn:li:share:7531338418425995264",
     "error": "Instagram: Error validating access token: session invalidated (password change or Facebook security reset). Failed twice; Windsor Instagram connection needs reconnecting. Instagram carousel for d02 not posted."
+  },
+  {
+    "id": "d03",
+    "publishedAt": "2026-11-26T12:49:00Z",
+    "instagramMediaId": null,
+    "facebookPostId": "1466103719920801_122109380073551175",
+    "linkedinPostId": "urn:li:share:7531700736145997824",
+    "error": "Instagram: Error validating access token: session invalidated (password change or Facebook security reset). Same as d02; Windsor Instagram connection still needs reconnecting. Instagram carousel for d03 not posted."
   }
 ]
