@@ -84,10 +84,19 @@
        {"kicker": "TRY IT", "headline": "Make up your own mind.", "body": "Call +1 (859) 724-5646 and test it yourself."}
      ],
      "caption": "\"AI receptionist\" makes a lot of people picture a clunky phone menu. Here's what's actually true.\n\nMyth: it's a phone tree. Fact: callers simply talk, and it understands and replies.\n\nMyth: it only takes messages. Fact: it books, reschedules and confirms appointments and answers common questions.\n\nMyth: callers get trapped. Fact: it can forward or warm-transfer the call to a person on your team.\n\nDon't take our word for it.\n\nCall our AI receptionist now: +1 (859) 724-5646",
-     "hashtags": ["#AIreceptionist", "#smallbusiness", "#mythvsfact", "#customerservice"]}
+     "hashtags": ["#AIreceptionist", "#smallbusiness", "#mythvsfact", "#customerservice"]},
+    {"id": "d10", "date": "2026-12-04", "pillar": "use_case", "topic": "Law offices: after-hours new-client calls",
+     "slides": [
+       {"kicker": "VOX://LAW OFFICES", "headline": "New clients call after hours.", "body": "Someone needs a lawyer at 8pm. If nobody answers, they keep dialing down the list."},
+       {"kicker": "THE PROBLEM", "headline": "Voicemail feels like a closed door.", "body": "A worried caller rarely waits until morning for a callback."},
+       {"kicker": "WITH VOX", "headline": "Every new inquiry gets answered.", "body": "Vox takes the caller's details and reason for calling, and books a consultation."},
+       {"kicker": "YOU STAY IN CONTROL", "headline": "Urgent calls reach your team.", "body": "Set when Vox forwards or warm-transfers a call to a person at your firm."},
+       {"kicker": "TRY IT", "headline": "Hear it take an intake call.", "body": "Call +1 (859) 724-5646."}
+     ],
+     "caption": "People don't look for a lawyer on a schedule. They call when something happens, often in the evening or on a weekend.\n\nIf they reach voicemail, many just call the next firm.\n\nVoxReception answers every call, takes the caller's details and what they need help with, and books a consultation on your calendar. When a call should go to a person, it forwards or warm-transfers it to your team.\n\nYour firm gives the legal advice. Vox makes sure the call gets answered.\n\nCall our AI receptionist now: +1 (859) 724-5646",
+     "hashtags": ["#lawfirm", "#legalmarketing", "#AIreceptionist", "#smallbusiness"]}
   ],
   "week2_topics": [
-    {"date": "2026-12-04", "pillar": "use_case", "topic": "Law offices: after-hours new-client calls"},
     {"date": "2026-12-05", "pillar": "product", "topic": "Phone, WhatsApp, chat, email: one conversation"},
     {"date": "2026-12-06", "pillar": "education", "topic": "Should an AI tell callers it's an AI? Our answer"},
     {"date": "2026-12-07", "pillar": "product", "topic": "Simple pricing: what $350 a month covers"},
