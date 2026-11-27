@@ -24,5 +24,12 @@
     "linkedinPostId": "urn:li:share:7531700736145997824",
     "error": "Resolved: Instagram: Error validating access token: session invalidated (password change or Facebook security reset). Same as d02; Windsor Instagram connection still needs reconnecting. Instagram carousel for d03 not posted.",
     "note": "Instagram carousel posted late on 2026-11-26 ~18:15Z after the Windsor Instagram connection was reconnected."
+  },
+  {
+    "id": "d04",
+    "publishedAt": "2026-11-27T12:50:00Z",
+    "instagramMediaId": "18140969029632402",
+    "facebookPostId": "1466103719920801_122109954651551175",
+    "linkedinPostId": "urn:li:share:7532063343327498241"
   }
 ]
